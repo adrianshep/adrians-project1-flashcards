@@ -10,4 +10,4 @@ User Stories for Flashcards Project:
 
 4) As a user of the flashcards, I want to able to create a history of my correct and incorrect answers so I may track my progress in learning the material on the cards.
 
-5) As a user of the flashcards who's on the go, I want a version of the flashcards that easily loads and displays on my mobile device so I can test myself during commutes, lunches and any opportunity where I have a moment to test myself with the cards.
+5) As a user of the flashcards who's on the go, I want a version of the flashcards that easily loads and displays on my mobile device so I can test myself during commutes, lunches and any opportunity where I have a moment or two.
