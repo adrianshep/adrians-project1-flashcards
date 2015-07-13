@@ -30,7 +30,10 @@ $(document).ready(function() {
 
   $(".qBox").on("keyup", function(event){
       if (event.keyCode === 70) {
-        $(".qBox").val("What is the state capital of " + statesCapitals[0][0] + "?")
+        $(".qBox").val("What is the state capital of " + statesCapitals[0][0] + "? Enter A when you're ready for the answer.")
+      }
+        if (event.keyCode === 65) {
+          $(".qBox").val("What is the state capital of " + statesCapitals[0][0] + "?  " + statesCapitals[0][1])
       }
     })
 
