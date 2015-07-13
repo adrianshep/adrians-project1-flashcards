@@ -1,5 +1,5 @@
 FLASHCARDS PROJECT REQUIREMENTS:
-Pre-load your app with some data, and let the user flip through them quickly (back or front), and use the keyboard flip the card, and to mark whether they got it right or not. Track which cards were incorrect, and re-display them until the user gets them right!
+Pre-load your app with some data, and let the user flip through them quickly (back or front), and use the keyboard (to) flip the card, and to mark whether they got it right or not. Track which cards were incorrect, and re-display them until the user gets them right!
 
 BONUS:
 + Track scores over time (even if the page is reloaded)
@@ -30,11 +30,11 @@ DATA =
 
 VIEWS =
   viewQuestion = displays question
-                - should offer flip key instruction to reveal answer (A)
+                - should offer flip key instruction to reveal answer (A)(65)
   viewAnswer = displays answer
                 - should display answer below question
-                - should offer marking key instruction (Y or N)
-                - should offer next direction key instruction (Forwards or Backwards)
+                - should offer marking key instruction (Y(89) or N(78))
+                - should offer next direction key instruction (Forwards(70) or Backwards(66))
 
   Bonus VIEWS:
   viewStandings = display number of correct answers on 1st, 2nd, nth circuits tied to user name and date and time
