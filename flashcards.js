@@ -28,14 +28,21 @@ $(document).ready(function() {
   // e.which = 70; // # Some key code value
   // $("input").trigger(e);
 
-  $(".qBox").on("keyup", function(event){
-      if (event.keyCode === 70) {
-        $(".qBox").val("What is the state capital of " + statesCapitals[0][0] + "? Enter A when you're ready for the answer.")
-      }
-        if (event.keyCode === 65) {
-          $(".qBox").val("What is the state capital of " + statesCapitals[0][0] + "?  " + statesCapitals[0][1])
-      }
+  $("#forward").on("click", function(){
+      //console.log("forwards is firing")
+      $(".qBox").html("What is the state capital of " + statesCapitals[0][0] + "?")
     })
+
+  $("#answer").on("click", function(){
+        //console.log("forwards is firing")
+      $(".qBox").html("What is the state capital of " + statesCapitals[0][0] + "?  " + statesCapitals[0][1])
+    })
+
+
+    //     if (event.keyCode === 65) {
+    //       $(".qBox").val("What is the state capital of " + statesCapitals[0][0] + "?  " + statesCapitals[0][1])
+    //   }
+    // })
 
   // $(".div").on("keydown", function(evt){
   //   if(evt.keyCode === 70){
