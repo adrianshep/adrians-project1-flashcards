@@ -15,10 +15,17 @@ REQUIREMENTS BROKEN OUT:
 
 
 DATA =
-  flaschards data is entered in key value pairs of a question and its answer
+  flashcards data is entered in key value pairs of a question and its answer
   Miscellaneous:
   - q+a pairs are saved with each value as a string;
   - in order in which they are entered?;
+  var statesCapitals = {
+  "Connecticut": "Hartford",
+  "New Jersey": "Trenton",
+  "New York": "Albany",
+  "Ohio": "Columbus",
+  "Pennsylvania": "Harrisburg",
+}
 
 
 VIEWS =
@@ -49,6 +56,6 @@ size, color, margins, borders, layout, location,
 etc.; to change the view's presentation of
 the model (e.g., by scrolling through a document)
 
-STYLE = 
+STYLE =
 
 DOM manipulation
