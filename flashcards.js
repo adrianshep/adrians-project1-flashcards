@@ -24,8 +24,14 @@ $(document).ready(function() {
     [["Pennsylvania"], ["Harrisburg"]],
   ];
 
-  $(".qBox").on("click", function(){
-      $(".qBox").html("What is the state capital of " + statesCapitals[0][0] + " ?")
+  // var e = jQuery.Event("keydown");
+  // e.which = 70; // # Some key code value
+  // $("input").trigger(e);
+
+  $(".qBox").on("keyup", function(event){
+      if (event.keyCode === 70) {
+        $(".qBox").val("What is the state capital of " + statesCapitals[0][0] + "?")
+      }
     })
 
   // $(".div").on("keydown", function(evt){
