@@ -5,7 +5,26 @@
   top: auto;
   left: auto;
   border:1px solid #000;
-    }
+  text-align: center;
+  vertical-align: middle;
+  line-height:100px;
+  }
+
+#image {
+  background:url(/Users/adrianshepelavey/wdi/projects/adrians-project1-flashcards/preschool-stencil-q.jpg) no-repeat;
+}
+
+.aBox {
+  width: 500px;
+  height:100px;
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  border:1px solid #000;
+  text-align: center;
+  vertical-align: middle;
+  line-height:100px;
+        }
 
 .button {
   text-align: center;
