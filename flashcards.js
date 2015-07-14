@@ -28,10 +28,24 @@ $(document).ready(function() {
   // e.which = 70; // # Some key code value
   // $("input").trigger(e);
 
-  $("#forward").on("click", function(){
-      //console.log("forwards is firing")
-      $(".qBox").html("What is the state capital of " + statesCapitals[0][0] + "?")
-    })
+  $("#next").on("click", function(){
+      //console.log("next is firing")
+      //for (var i = 0; i < statesCapitals.length; i++) not working - only produces last
+      //element in array, Pennsylvania.
+      //PROBLEM TO SOLVE:
+      //when user starts flashcards, index of first card should be 0; every subsequent
+      //click of "next" button should add 1 to the index of the current card
+      //returning the next flashcard.
+      //need to findIndex of current element, add 1 to it as the instruction to pull next
+      //element
+      //if statesCapitals.indexOf{
+      //for (var i = statesCapitals.length - 1; i >= 0; i--) {
+        //for (statesCapitals[i]) {
+          var i = 0;
+          for (i in statesCapitals) {
+          $(".qBox").html("What is the state capital of " + statesCapitals[i][0] + "?")
+          }
+      })
     //var array = [8, 1, 2, 3, 4, 5, 6, 7];
     //array.push(array.shift());
     //maybe instead of .shift use .indexOf and .splice
@@ -39,8 +53,8 @@ $(document).ready(function() {
 
   $("#answer").on("click", function(){
         //console.log("forwards is firing")
-      $(".qBox").html("What is the state capital of " + statesCapitals[0][0] + "?  " + statesCapitals[0][1])
-    })
+        $(".qBox").html("What is the state capital of " + statesCapitals[i][0] + "?  " + statesCapitals[i][1])
+   })
 
 
     //     if (event.keyCode === 65) {
