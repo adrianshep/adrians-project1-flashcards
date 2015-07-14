@@ -25,7 +25,22 @@ $(document).ready(function() {
       $(".aBox").html(statesCapitals[i][1]);
    i++;
    })
+
+   $("#incorrect").on("click", function(){
+       var incorrect = statesCapitals.splice(i,1);
+       statesCapitals.push(incorrect[i]);
+       console.log(statesCapitals[4]);
+    })
+   //var incorrect = statesCapitals.splice(i,1);
+   //statesCapitals.push(incorrect[i]);
+
 })
+
+  //var first = array.splice(0,1);
+  //array.push(first[0]);
+  //var incorrect = statesCapitals.splice(i,1);
+  //statesCapitals.push(incorrect[i]);
+
   // $("#previous").on("click", function(){
     // if (i = -1) {
       // $(".qBox").html("What is the state capital of " + statesCapitals[i][0] + "?");
@@ -47,6 +62,7 @@ $(document).ready(function() {
 //var array = [8, 1, 2, 3, 4, 5, 6, 7];
 //array.push(array.shift());
 //maybe instead of .shift use .indexOf and .splice
+//
 
 // var statesCapitals = [
 //   {"Connecticut": "Hartford"},
