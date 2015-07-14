@@ -23,7 +23,7 @@ $(document).ready(function() {
     [["Ohio"], ["Columbus"]],
     [["Pennsylvania"], ["Harrisburg"]],
   ];
-  //var i = i - 1; when I tested this here, I lower console.log([i]) no longer showed
+  i = 0; //when I tested this here, I lower console.log([i]) no longer showed
   //[3] ("Pennsylvania" index less one), but ["4"] instead.
 
   //tried and abandoned key event after clarification from Jesse about project req's
@@ -46,10 +46,11 @@ $(document).ready(function() {
       //for (var i = statesCapitals.length - 1; i >= 0; i--) {
         //for (statesCapitals[i]) {
           //var i = 0;
-          for (i in statesCapitals) {
-          $(".qBox").html("What is the state capital of " + statesCapitals[i][0] + "?")
-          }
+        //for (i in statesCapitals) {
+        $(".qBox").html("What is the state capital of " + statesCapitals[i][0] + "?")
+          //}
           //var i = i - 1;
+
           console.log([i]);
       })
     //var array = [8, 1, 2, 3, 4, 5, 6, 7];
@@ -60,12 +61,13 @@ $(document).ready(function() {
   $("#answer").on("click", function(){
         //console.log("forwards is firing")
         //var i = 0;
-        for (i in statesCapitals)
+
         $(".qBox").html("What is the state capital of " + statesCapitals[i][0] + "?  " + statesCapitals[i][1])
+        i++;
    })
 
-   var
-   
+   //var i = (i - 1);
+
    //abandoned key event experiments:
     //     if (event.keyCode === 65) {
     //       $(".qBox").val("What is the state capital of " + statesCapitals[0][0] + "?  " + statesCapitals[0][1])
