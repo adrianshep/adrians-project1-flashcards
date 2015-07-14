@@ -32,6 +32,10 @@ $(document).ready(function() {
       //console.log("forwards is firing")
       $(".qBox").html("What is the state capital of " + statesCapitals[0][0] + "?")
     })
+    //var array = [8, 1, 2, 3, 4, 5, 6, 7];
+    //array.push(array.shift());
+    //maybe instead of .shift use .indexOf and .splice
+
 
   $("#answer").on("click", function(){
         //console.log("forwards is firing")
