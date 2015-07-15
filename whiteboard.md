@@ -60,53 +60,46 @@ STYLE =
 
 DOM manipulation
 
-["Alabama", "Montgomery"]
-["Alaska", "Juneau"]
-"Arizona," "Phoenix"
-Arkansas Little Rock
-California Sacramento
-Colorado Denver	
-Hartford	Connecticut
-Dover	Delaware
-Tallahassee	Florida
-Atlanta	Georgia
-Honolulu	Hawaii
-Boise	Idaho
-Springfield	Illinois
-Indianapolis	Indiana
-Des Moines	Iowa
-Topeka	Kansas
-Frankfort	Kentucky
-Baton Rouge	Louisiana
-Augusta	Maine
-Annapolis	Maryland
-Boston	Massachusetts
-Lansing	Michigan
-Saint Paul	Minnesota
-Jackson	Mississippi
-Jefferson City	Missouri
-Helena	Montana
-Lincoln	Nebraska
-Carson City	Nevada
-Concord	New Hampshire
-Trenton	New Jersey
-Santa Fe	New Mexico
-Albany	New York
-Raleigh	North Carolina
-Bismarck	North Dakota
-Columbus	Ohio
-Oklahoma City	Oklahoma
-Salem	Oregon
-Harrisburg	Pennsylvania
-Providence	Rhode Island
-Columbia	South Carolina
-Pierre	South Dakota
-Nashville	Tennessee
-Austin	Texas
-Salt Lake City	Utah
-Montpelier	Vermont
-Richmond	Virginia
-Olympia	Washington
-Charleston	West Virginia
+[["Hawaii"], ["Honolulu"]],
+[["Idaho"], ["Boise"]],
+[["Illinois"], ["Springfield"]],
+[["Indiana"], ["Indianapolis"]],
+[["Iowa"], ["Des Moines"]],
+[["Kansas"], ["Topeka"]],
+[["Kentucky"], ["Frankfort"]],
+[["Louisiana"], ["Baton Rouge"]],
+[["Maine"], ["Augusta"]],
+[["Maryland"], ["Annapolis"]],
+[["Massachusetts"], ["Boston"]],
+[["Michigan"], ["Lansing"]],
+[["Minnesota"], ["Saint Paul"]],
+[["Mississippi"], ["Jackson"]],
+[["Missouri"], ["Jefferson City"]],
+[["Montana"], ["Helena"]],
+[["Nebraska"], ["Lincoln"]],
+[["Nevada"], ["Carson City"]],
+[["New Hampshire"], ["Concord"]],
+
+[["New Mexico"], ["Santa Fe"]],
+[["North Carolina"], ["Raleigh"]],
+[["North Dakota"], ["Bismarck"]],
+
+[["Oklahoma"], ["Oklahoma City"]],
+[["Oregon"], ["Salem"]],
+[["Rhode Island"], ["Providence"]],
+
+[["South Carolina"], ["Columbia"]],
+[["South Dakota"], ["Pierre"]],
+[["Tennessee"], ["Nashville"]],
+[["Texas"], ["Austin"]],
+
+[["Utah"],["Salt Lake City"]],
+[["Vermont"], ["Montpelier"]],
+[["Virginia"], ["Richmond"]],
+[["Washington"], ["Olympia"]],
+[["West Virginia"], ["Charleston"]],
+[["Wisconsin"], ["Madison"]],
+[["Wyoming"], ["Cheyenne"]]
+Charleston
 Madison	Wisconsin
 Cheyenne	Wyoming
