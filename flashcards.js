@@ -27,9 +27,9 @@ $(document).ready(function() {
    })
 
    $("#incorrect").on("click", function(){
-       var incorrect = statesCapitals.splice(i,1);
+       var incorrect = statesCapitals.splice([i],1);
        statesCapitals.push(incorrect[i]);
-       console.log(statesCapitals[4]);
+       console.log(statesCapitals[i]);
     })
    //var incorrect = statesCapitals.splice(i,1);
    //statesCapitals.push(incorrect[i]);
