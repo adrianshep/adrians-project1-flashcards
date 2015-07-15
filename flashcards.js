@@ -1,6 +1,4 @@
 $(document).ready(function() {
-//  console.log ("jq working")
-//this one returns the values by index:
   var statesCapitals = [
     [["Alabama"], ["Montgomery"]],
     [["Alaska"], ["Juneau"]],
@@ -74,28 +72,30 @@ $(document).ready(function() {
    $("#incorrect").on("click", function(){
        var incorrect = statesCapitals.splice([i],1);
        statesCapitals.push(incorrect[i]);
-       console.log(statesCapitals[i]);
+       //console.log(incorrect);
     })
-   //var incorrect = statesCapitals.splice(i,1);
-   //statesCapitals.push(incorrect[i]);
-
 })
+
+  //   $("#previous").on("click", function(){
+  //     if (i = -1) {
+  //       $(".qBox").html("What is the state capital of " + statesCapitals[i][0] + "?");
+  //        $(".aBox").html(" ");
+  //       }
+  //      else {
+  //       $(".qBox").html("You've reached the beginning!");
+  //       $(".aBox").html(" ");
+  //         }
+  //     })
+  // })
+
+//var incorrect = statesCapitals.splice(i,1);
+//statesCapitals.push(incorrect[i]);
 
   //var first = array.splice(0,1);
   //array.push(first[0]);
   //var incorrect = statesCapitals.splice(i,1);
   //statesCapitals.push(incorrect[i]);
 
-  // $("#previous").on("click", function(){
-    // if (i = -1) {
-      // $(".qBox").html("What is the state capital of " + statesCapitals[i][0] + "?");
-       //$(".aBox").html(" ");
-      // }
-     //else {
-    //   $(".qBox").html("You've reached the beginning!");
-      // $(".aBox").html(" ");
-        // }
-    // })
 
   // $("#answer").on("click", function(){
     //   $(".aBox").html(statesCapitals[i][1]);
@@ -108,6 +108,9 @@ $(document).ready(function() {
 //array.push(array.shift());
 //maybe instead of .shift use .indexOf and .splice
 //
+
+//  console.log ("jq working")
+//this one returns the values by index:
 
 // var statesCapitals = [
 //   {"Connecticut": "Hartford"},
