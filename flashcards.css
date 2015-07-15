@@ -1,9 +1,40 @@
+h1 {
+    padding: 0;
+    width: 35;
+    margin-left: 100px;
+    margin-right: 132px;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  	font-size: 72px;
+  	font-style: bold;
+  	font-variant: normal;
+  	font-weight: 500;
+    color: #3C3B6E;
+    text-shadow: -1px 0 #B22234, 0 1px #B22234, 1px 0 #B22234, 0 -1px #B22234;
+    border:3px solid #B22234;
+}
+
+h2 {
+    padding: 0;
+    width: 35;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  	font-size: 36px;
+  	font-style: bold;
+  	font-variant: normal;
+  	font-weight: 500;
+    color: #B22234;
+}
+
+
 .qBox {
   width: 500px;
   height:100px;
   position: absolute;
   top: auto;
-  left: auto;
+  left: 95px;
   border:3px solid #B22234;
   text-align: center;
   vertical-align: middle;
@@ -17,16 +48,12 @@
   background-color: #3C3B6E;
   }
 
-#image {
-  background:url(Old_American_Flag_1_.jpg) no-repeat;
-}
-
 .aBox {
   width: 500px;
   height:100px;
-  position: absolute;
-  top: 6px;
-  right: 10px;
+  position: relative;
+  top: 0px;
+  left: 760px;
   border:3px solid #B22234;
   text-align: center;
   vertical-align: middle;
@@ -39,7 +66,18 @@
   color:#FFFFFF;
   background-color: #3C3B6E;
         }
-
 .button {
-  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 215px;
+  font: bold 16px 'Helvetica Neue';
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
 }
